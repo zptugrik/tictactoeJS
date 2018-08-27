@@ -8,7 +8,6 @@ function CreateWinnerLayer() {
     let buttonMenu = new Button(menuButtonConfig);
     this.mainLayer.AddChild(buttonMenu);
 }
-CreateWinnerLayer.prototype = Layer.prototype;
 CreateWinnerLayer.prototype.SignDecorator = function(){
     this.text.label = this.isWinner
         ? game.game_layer.text.label + " Won"
