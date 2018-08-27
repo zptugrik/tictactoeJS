@@ -1,0 +1,33 @@
+#canvas {
+    display: block;
+    /*margin: auto;*/
+    border: 1px solid #73AD21;
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainContainer {
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+
+#content, #adContainer {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    width: 640px;
+    height: 360px;
+
+}
+
+.hide-advertise{
+    display:none;
+    pointer-events: none;
+}
+
+#contentElement {
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
